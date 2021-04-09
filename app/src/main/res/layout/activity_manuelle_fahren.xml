@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manuelleFahren">
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="413dp"
+        android:layout_height="375dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="236dp"
+        android:layout_height="48dp"
+        android:text="Steuerung"
+        android:textSize="18sp"
+        app:backgroundTint="#673AB7"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="247dp"
+        android:layout_height="27dp"
+        android:text="Fahrzeugeigenschaft 1:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="247dp"
+        android:layout_height="27dp"
+        android:text="Fahrzeugeigenschaft 2:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="247dp"
+        android:layout_height="27dp"
+        android:text="Fahrzeugeigenschaft 3:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="548dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
